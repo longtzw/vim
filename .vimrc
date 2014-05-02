@@ -5,6 +5,8 @@ set nu
 
 colorschem desert
 
+let g:SuperTabDefaultCompletionType="context"
+
 " pathogen plugin
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
