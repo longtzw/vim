@@ -11,3 +11,6 @@ let g:SuperTabDefaultCompletionType="context"
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+" vim-makedown
+let g:vim_markdown_folding_disabled=1 " 禁止折叠
+
