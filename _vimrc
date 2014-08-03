@@ -54,6 +54,8 @@ set wildmenu " 在命令模式下使用 Tab 自动补全的时候，将补全内容使用一个漂亮的单行
 "Map related
 nnoremap <F3> <C-o>
 nnoremap <F4> <C-i>
+nmap <tab>   v>
+nmap <s-tab> v<
 nnoremap <silent> <F12> :TlistToggle<CR>
 nnoremap <silent> <F11> :NERDTreeToggle<CR>
 nnoremap <silent> <Leader>q :q<CR>
