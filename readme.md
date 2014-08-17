@@ -59,6 +59,7 @@ git clone --recursive git@github.com:longtzw/vim.git
 ### 1.5.1 运行shell命令
 
 |命令                    |用途                                                 | 
+|------------------------|-----------------------------------------------------| 
 |:shell                  |启动一个shell（输入exit返回Vim）                     |
 |:\!\{cmd\}              |在shell中执行{cmd}                                   |
 |read \!\{cmd\}          |在shell中执行{cmd}                                   |
