@@ -2,6 +2,7 @@ set nocp
 set sw=4
 set ts=4
 set nu
+set pastetoggle=<F5> " 用F5来切换'paste'选项
 
 colorschem desert
 
