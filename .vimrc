@@ -7,6 +7,7 @@ set foldmethod=indent "选择代码折叠类型
 set foldlevel=100 "启动vim时不要自动折叠代码
 
 set encoding=utf-8
+"set termencoding=gb18030
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " Tab related
@@ -50,16 +51,22 @@ nnoremap <F3> <C-o>
 nnoremap <F4> <C-i>
 " 高亮查找开关
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l> 
-nnoremap <silent> <F12> :TlistToggle<CR>
-nnoremap <silent> <F11> :NERDTreeToggle<CR>
+nnoremap <silent> <S-F12> :TlistToggle<CR>
+nnoremap <silent> <F12> :NERDTreeToggle<CR>
 nnoremap <silent> <Leader>q :q<CR>
 nnoremap <silent> <Leader>cn :cn<CR>
 nnoremap <silent> <Leader>cp :cp<CR>
 nnoremap <silent> <Leader>co :copen<CR>
 nnoremap <silent> <Leader>cc :cclose<CR>
+nnoremap <Right> <C-D>
+nnoremap <Left> <C-U>
+nnoremap <C-h> <C-w><C-h>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
 nnoremap <C-f> :vimgrep 
+nnoremap <Tab> :tag 
 nnoremap <Space> i<Space><Esc>l
-nnoremap wm :WMToggle<CR>  
 map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 runtime bundle/pathogen/autoload/pathogen.vim
@@ -111,4 +118,8 @@ endfunction
 function! NERDTree_IsValid()  
     return 1  
 endfunction  
+
+" vim-powerline
+let g:Powerline_symbols = 'fancy'
+
 
