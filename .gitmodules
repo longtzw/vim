@@ -12,7 +12,7 @@
 	url = git@github.com:terryma/vim-multiple-cursors.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git@github.com:tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround
 [submodule "color/darkburn"]
 	path = color/darkburn
 	url = https://github.com/TaurusOlson/darkburn.vim.git
