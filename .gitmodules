@@ -13,3 +13,27 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
+[submodule "color/darkburn"]
+	path = color/darkburn
+	url = https://github.com/TaurusOlson/darkburn.vim.git
+[submodule "bundle/NERDTree"]
+	path = bundle/NERDTree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/vim-qargs"]
+	path = bundle/vim-qargs
+	url = https://github.com/nelstrom/vim-qargs.git
+[submodule "bundle/OmniCppComplete"]
+	path = bundle/OmniCppComplete
+	url = https://github.com/vim-scripts/OmniCppComplete
+[submodule "bundle/minibuf"]
+	path = bundle/minibuf
+	url = https://github.com/vim-scripts/minibufexpl.vim.git
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/mark"]
+	path = bundle/mark
+	url = https://github.com/vim-scripts/Mark.git
