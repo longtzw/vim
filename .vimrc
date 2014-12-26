@@ -28,11 +28,12 @@ set fo+=mB    " 打开断行模块对亚洲语言支持。
 
 " Display related
 set t_Co=256
+set laststatus=2
 set nu " 显示行号
 set ru " 打开标尺,显示行、列、百分比等状态
 syntax on " 开启关键字上色
 colorscheme darkburn " 设置主题
-set guifont=Bitstream_Vera_Sans_Mono:h10:cANSI " 设置英文字体
+set guifont=Inconsolata\ for\ Powerline:h10:cANSI " 设置英文字体
 set gfw=幼圆:h10.5:cGB2312 " 设置中文字体
 set cursorline "高亮光标所在行
 set incsearch " 开启增量查找, 在执行前预览第一处匹配
@@ -120,6 +121,7 @@ function! NERDTree_IsValid()
 endfunction  
 
 " vim-powerline
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
+let g:airline_powerline_fonts = 1
 
 
