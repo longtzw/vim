@@ -34,7 +34,7 @@ set ru " 打开标尺,显示行、列、百分比等状态
 syntax on " 开启关键字上色
 colorscheme darkburn " 设置主题
 set guifont=Inconsolata\ for\ Powerline:h10:cANSI " 设置英文字体
-set gfw=幼圆:h10.5:cGB2312 " 设置中文字体
+set gfw=WenQuanYi\ Zen \ Hei\ Medium:h10.5:cGB2312 " 设置中文字体
 set cursorline "高亮光标所在行
 set incsearch " 开启增量查找, 在执行前预览第一处匹配
 
