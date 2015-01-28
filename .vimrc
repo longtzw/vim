@@ -27,16 +27,24 @@ set fo+=mB    " 打开断行模块对亚洲语言支持。
               " B 表示将两行合并为一行的时候，汉字与汉字间不要补空格
 
 " Display related
+"set guioptions-=m
+set guioptions-=T
 set t_Co=256
 set laststatus=2
 set nu " 显示行号
 set ru " 打开标尺,显示行、列、百分比等状态
 syntax on " 开启关键字上色
 colorscheme molokai " 设置主题
-set guifont=Inconsolata\ for\ Powerline:h10:cANSI " 设置英文字体
-set gfw=WenQuanYi\ Zen\ Hei\ Medium:h10.5:cGB2312 " 设置中文字体
+if has('gui_running')
+    set guifont=Inconsolata\ for\ Powerline\ 10 " 设置英文字体
+    set gfw=WenQuanYi\ Zen\ Hei\ Medium\ 10.5 " 设置中文字体
+else
+    set guifont=Inconsolata\ for\ Powerline:h10:cANSI " 设置英文字体
+    set gfw=WenQuanYi\ Zen\ Hei\ Medium:h10.5:cGB2312 " 设置中文字体
+endif
 set cursorline "高亮光标所在行
 set incsearch " 开启增量查找, 在执行前预览第一处匹配
+set nowrap "显示时不自动换行
 
 " Edit related
 set backspace=indent,eol,start
