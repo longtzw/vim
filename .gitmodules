@@ -4,9 +4,6 @@
 [submodule "bundle/vim-supertab"]
 	path = bundle/vim-supertab
 	url = https://github.com/ervandew/supertab
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/vim-mutiple-cursors"]
 	path = bundle/vim-mutiple-cursors
 	url = git@github.com:terryma/vim-multiple-cursors.git
@@ -40,6 +37,3 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule "bundle/powerline-fonts"]
-	path = bundle/powerline-fonts
-	url = https://github.com/powerline/fonts
